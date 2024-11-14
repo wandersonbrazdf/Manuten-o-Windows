@@ -1,0 +1,109 @@
+@ECHO OFF
+@ECHO.
+@ECHO ********************************************************
+@ECHO *                                                      *
+@ECHO *   APAGANDO ARQUIVOS DA PASTA TEMPORARIA DO SISTEMA   *
+@ECHO *                                                      *
+@ECHO ********************************************************
+@ECHO.
+
+del /q /f /s "%windir%\Temp\*.*"
+
+
+@ECHO.
+@ECHO.
+@ECHO.
+
+@ECHO OFF
+@ECHO.
+@ECHO ********************************
+@ECHO *                              *
+@ECHO *    ARQUIVOS APAGADOS         *
+@ECHO *                              *
+@ECHO ********************************
+@ECHO.
+
+PAUSE
+
+@ECHO.
+@ECHO.
+@ECHO.
+
+@ECHO.
+@ECHO ********************************************************
+@ECHO *                                                      *
+@ECHO *   APAGANDO ARQUIVOS DA PASTA PRÉ-BUSCA DO SISTEMA    *
+@ECHO *                                                      *
+@ECHO ********************************************************
+@ECHO.
+
+del /q /f /s "%windir%\Prefetch\*.*"
+
+
+@ECHO.
+@ECHO.
+@ECHO.
+
+@ECHO.
+@ECHO ********************************
+@ECHO *                              *
+@ECHO *    ARQUIVOS APAGADOS         *
+@ECHO *                              *
+@ECHO ********************************
+@ECHO.
+
+PAUSE
+
+@ECHO.
+@ECHO.
+@ECHO.
+
+@ECHO.
+@ECHO ********************************************************
+@ECHO *                                                      *
+@ECHO *   APAGANDO ARQUIVOS DA PASTA TEMPORARIA DO USUARIO   *
+@ECHO *                                                      *
+@ECHO ********************************************************
+@ECHO.
+
+del /q /f /s "C:\Documents and settings\%username%\Config~1\temp\*.*"
+
+
+@ECHO.
+@ECHO.
+@ECHO.
+
+@ECHO.
+@ECHO ********************************
+@ECHO *                              *
+@ECHO *    ARQUIVOS APAGADOS         *
+@ECHO *                              *
+@ECHO ********************************
+@ECHO.
+
+PAUSE
+
+@ECHO.
+@ECHO ********************************************************
+@ECHO *                                                      *
+@ECHO *   APAGANDO ARQUIVOS DA PASTA SOFTWARE DISTRIBUTION   *
+@ECHO *                                                      *
+@ECHO ********************************************************
+@ECHO.
+
+del /q /f /s "%windir%\SoftwareDistribution\Download\*.*"
+
+
+@ECHO.
+@ECHO.
+@ECHO.
+
+@ECHO.
+@ECHO ********************************
+@ECHO *                              *
+@ECHO *    ARQUIVOS APAGADOS         *
+@ECHO *                              *
+@ECHO ********************************
+@ECHO.
+
+PAUSE
